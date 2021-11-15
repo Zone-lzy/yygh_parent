@@ -4,6 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <modules>
+        <module>common_util</module>
+        <module>service_util</module>
+    </modules>
+
     <parent>
         <artifactId>yygh_parent</artifactId>
         <groupId>com.lzy</groupId>
@@ -14,10 +19,7 @@
     <artifactId>common</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <modules>
-        <module>common_util</module>
-        <module>service_util</module>
-    </modules>
+
 
     <dependencies>
         <dependency>
@@ -48,6 +50,15 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
+
+<!--        工具类的依赖使用-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.29</version>
+        </dependency>
+
     </dependencies>
+
 
 </project>

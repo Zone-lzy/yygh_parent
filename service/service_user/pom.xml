@@ -11,5 +11,22 @@
 
     <artifactId>service_user</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lzy</groupId>
+            <artifactId>model</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lzy</groupId>
+            <artifactId>common_util</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lzy</groupId>
+            <artifactId>service_util</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
